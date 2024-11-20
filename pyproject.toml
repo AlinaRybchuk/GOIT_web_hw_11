@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-11-rest-api"
+version = "0.1.0"
+description = ""
+authors = ["AlinaRybchuk <alina_rybchuk_96@ukr.net>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+fastapi = "^0.115.5"
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
